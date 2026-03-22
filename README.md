@@ -211,3 +211,22 @@ ElectroLabProjects/
 │   └── ...
 │
 └── README.md
+
+
+
+
+
+
+
+
+```mermaid
+graph TD
+    A[Start / Idle] --> B[Wait for Coin / Token]
+    B --> C{Coin Valid?}
+    C -- Yes --> D[Select Item]
+    C -- No --> B
+    D --> E{Item Available?}
+    E -- Yes --> F[Dispense Item]
+    E -- No --> D
+    F --> G[Update Inventory & Display]
+    G --> A
