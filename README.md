@@ -185,33 +185,27 @@ Please create a pull request with proper description before merging.
 
 
 
+
 ## 🗂️ Project Structure
-
-ElectroLabProjects
-'''plaintext 
-
-VendingMachineLab/
+ElectroLabProjects/
 │
-├── Hardware/
-│   ├── CircuitDiagrams/       # All circuit schematics and wiring diagrams
-│   └── ComponentsList/        # Bill of Materials (BOM) for hardware
+├── AnalogCircuits/
+│   ├── OpAmpExperiment/
+│   └── RCFilterExperiment/
 │
-├── Code/
+├── DigitalCircuits/
+│   ├── LogicGates/
+│   └── FlipFlop/
+│
+├── Microcontrollers/
 │   ├── Arduino/
-│   │   └── VendingMachine.ino # Arduino code for vending machine
 │   └── ESP32/
-│       └── VendingMachineESP32.ino # ESP32 version of the code
 │
-├── Simulation/
-│   ├── Proteus/               # Proteus simulation files
-│   └── Fritzing/              # Fritzing layouts for breadboard/PCB
+├── Sensors/
+│   ├── TemperatureSensor/
+│   └── MotionSensor/
 │
-├── README.md                  # Project documentation
-└── LICENSE                    # MIT License 
-
-
-
-
+└── README.md
 
 
 
