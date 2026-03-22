@@ -190,28 +190,24 @@ Please create a pull request with proper description before merging.
 ElectroLabProjects
 '''plaintext 
 
-├── AnalogCircuits
-
-    ├── OpAmp_Gain
-    ├── RC_Filter
-
-
-├── DigitalCircuits
-
-     ├── LogicGates
-     ├── FlipFlops
-
-├── Microcontroller
-
-     ├── Arduino
-     ├── LED_Blink
-     └── Sensor_Readings
-     └── ESP32
-├── Sensors
-
-    ├── Temp_Sensor
-    ├── Motion_Sensor
-└── README.md
+VendingMachineLab/
+│
+├── Hardware/
+│   ├── CircuitDiagrams/       # All circuit schematics and wiring diagrams
+│   └── ComponentsList/        # Bill of Materials (BOM) for hardware
+│
+├── Code/
+│   ├── Arduino/
+│   │   └── VendingMachine.ino # Arduino code for vending machine
+│   └── ESP32/
+│       └── VendingMachineESP32.ino # ESP32 version of the code
+│
+├── Simulation/
+│   ├── Proteus/               # Proteus simulation files
+│   └── Fritzing/              # Fritzing layouts for breadboard/PCB
+│
+├── README.md                  # Project documentation
+└── LICENSE                    # MIT License 
 
 
 
