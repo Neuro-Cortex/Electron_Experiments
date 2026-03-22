@@ -186,27 +186,42 @@ Please create a pull request with proper description before merging.
 
 
 ## 🗂️ Project Structure
-ElectroLabProjects/
+ElectroLabProjects
+
 │
-├── AnalogCircuits/
-│   ├── OpAmp_Gain/
-│   ├── RC_Filter/
+├── AnalogCircuits
+
+│   ├── OpAmp_Gain
+
+│   ├── RC_Filter
+
 │   └── ...
 │
-├── DigitalCircuits/
-│   ├── LogicGates/
-│   ├── FlipFlops/
+├── DigitalCircuits
+
+│   ├── LogicGates
+
+│   ├── FlipFlops
+
 │   └── ...
 │
-├── Microcontrollers/
-│   ├── Arduino/
-│   │   ├── LED_Blink/
-│   │   └── Sensor_Readings/
-│   └── ESP32/
+├── Microcontrollers
+
+│   ├── Arduino
+
+│   │   ├── LED_Blink
+
+│   │   └── Sensor_Readings
+
+│   └── ESP32
+
 │
-├── Sensors/
-│   ├── Temp_Sensor/
-│   ├── Motion_Sensor/
+├── Sensors
+
+│   ├── Temp_Sensor
+
+│   ├── Motion_Sensor
+
 │   └── ...
 │
 └── README.md
