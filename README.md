@@ -2,14 +2,14 @@
 
 
 
-
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/Neuro-Cortex/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/blob/main/LICENSE)  
-[![GitHub Repo Size](https://img.shields.io/github/repo‑size/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects)  
-[![Top Language](https://img.shields.io/github/languages/top/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects)  
-[![Contributors](https://img.shields.io/github/contributors/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/graphs/contributors)  
-[![Issues](https://img.shields.io/github/issues/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/issues)
+[![MIT License](https://img.shields.io/github/license/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments/blob/main/LICENSE)  
+[![Repo Size](https://img.shields.io/github/repo-size/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments)  
+[![Top Language](https://img.shields.io/github/languages/top/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments)  
+[![Contributors](https://img.shields.io/github/contributors/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments/graphs/contributors)  
+[![Issues](https://img.shields.io/github/issues/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments/issues)  
+[![Last Commit](https://img.shields.io/github/last-commit/Neuro-Cortex/Electron_Experiments?style=for-the-badge)](https://github.com/Neuro-Cortex/Electron_Experiments/commits/main)
 
 </div>
 
