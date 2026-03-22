@@ -5,7 +5,7 @@
 
 <div align="center">
 
-[![MIT License](https://img.shields.io/github/license/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/blob/main/LICENSE)  
+[![MIT License](https://img.shields.io/github/license/Neuro-Cortex/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/blob/main/LICENSE)  
 [![GitHub Repo Size](https://img.shields.io/github/repo‑size/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects)  
 [![Top Language](https://img.shields.io/github/languages/top/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects)  
 [![Contributors](https://img.shields.io/github/contributors/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/graphs/contributors)  
@@ -186,44 +186,30 @@ Please create a pull request with proper description before merging.
 
 
 ## 🗂️ Project Structure
+
 ElectroLabProjects
 
-│
 ├── AnalogCircuits
 
-│   ├── OpAmp_Gain
+    ├── OpAmp_Gain
+    ├── RC_Filter
 
-│   ├── RC_Filter
 
-│   └── ...
-│
 ├── DigitalCircuits
 
-│   ├── LogicGates
+     ├── LogicGates
+     ├── FlipFlops
 
-│   ├── FlipFlops
+├── Microcontroller
 
-│   └── ...
-│
-├── Microcontrollers
-
-│   ├── Arduino
-
-│   │   ├── LED_Blink
-
-│   │   └── Sensor_Readings
-
-│   └── ESP32
-
-│
+     ├── Arduino
+     ├── LED_Blink
+     └── Sensor_Readings
+     └── ESP32
 ├── Sensors
 
-│   ├── Temp_Sensor
-
-│   ├── Motion_Sensor
-
-│   └── ...
-│
+    ├── Temp_Sensor
+    ├── Motion_Sensor
 └── README.md
 
 
@@ -235,12 +221,16 @@ ElectroLabProjects
 
 ```mermaid
 graph TD
-    A[Start / Idle] --> B[Wait for Coin / Token]
-    B --> C{Coin Valid?}
-    C -- Yes --> D[Select Item]
-    C -- No --> B
-    D --> E{Item Available?}
-    E -- Yes --> F[Dispense Item]
-    E -- No --> D
-    F --> G[Update Inventory & Display]
-    G --> A
+    A[Start / Idle] --> B[Wait for Payment]
+    B --> C{Payment Method?}
+    C -- Coin / Token --> D[Validate Coin / Token]
+    C -- Online Payment --> E[Validate Online Payment]
+    D --> F{Payment Valid?}
+    E --> F
+    F -- Yes --> G[Select<br>Item]
+    F -- No --> B
+    G --> H{Item<br>Available?}
+    H -- Yes --> I[Dispense<br>Item]
+    H -- No --> G
+    I --> J[Update Inventory<br>& Display]
+    J --> A[Return to<br>Idle]
