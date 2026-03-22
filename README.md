@@ -186,7 +186,6 @@ Please create a pull request with proper description before merging.
 
 
 ## 🗂️ Project Structure
-```plaintext
 ElectroLabProjects/
 │
 ├── AnalogCircuits/
