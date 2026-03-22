@@ -2,7 +2,7 @@
 
 
 
-# ElectroLabProjects  
+
 <div align="center">
 
 [![MIT License](https://img.shields.io/github/license/your‑username/ElectroLabProjects?style=for‑the‑badge)](https://github.com/your‑username/ElectroLabProjects/blob/main/LICENSE)  
@@ -57,17 +57,6 @@ Each experiment folder contains:
 
 ElectroLabProjects is a collection of electronics laboratory experiments, circuits, and simulations developed for academic and practical learning purposes. This repository contains both theoretical explanations and practical implementations to help students and enthusiasts explore electronics concepts.
 
-```mermaid
-graph TD
-    A[Start / Idle] --> B[Wait for Coin / Token]
-    B --> C{Coin Valid?}
-    C -- Yes --> D[Select Item]
-    C -- No --> B
-    D --> E{Item Available?}
-    E -- Yes --> F[Dispense Item]
-    E -- No --> D
-    F --> G[Update Inventory & Display]
-    G --> A
 ---
 
 <br>
